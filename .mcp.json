@@ -1,1 +1,18 @@
-../../.mcp.json
+{
+  "mcpServers": {
+    "inspector": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "/home/leone/apps/fabrica-ecosystem/40-runtime/inspector/mcp-server/index.js"
+      ],
+      "env": {
+        "INSPECTOR_URL": "http://localhost:4200"
+      }
+    },
+    "inspector_native": {
+      "type": "http",
+      "url": "http://localhost:4200/mcp"
+    }
+  }
+}
