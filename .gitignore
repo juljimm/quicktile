@@ -8,3 +8,6 @@ _site
 .tox
 QuickTile.egg-info
 *.py[co]
+
+# Local Claude Code config (symlinks / machine-specific)
+.claude/
